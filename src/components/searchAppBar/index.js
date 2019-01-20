@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import SearchBox from '../../components/searchBox'
-import SearchAppBarComponent from '../../components/searchAppBar'
-
+import styles from './styles'
 
 function SearchAppBar({ classes, title, children }) {
   return (
@@ -20,23 +22,10 @@ function SearchAppBar({ classes, title, children }) {
   );
 }
 
-class SearchAppBar extends Component {
-  render() {
-    const title = 'Movies for Jeff!!'
-    const onSearchPlaceHolder = 
-    return(
-      <SearchAppBarComponent {...title}>
-        <SearchBox onSearch={()=>}/>
-      </SearchAppBarComponent>
-    )
-  }
-
-// <div className={classes.grow} />
-//           <div className={classes.search}>
-//             <SearchBox onSearch={()=> console.log('hellooo')} />
-//           </div>
-// SearchAppBar.propTypes = {
-//   classes: PropTypes.object.isRequired,
-// };
+SearchAppBar.propTypes = {
+  classes: PropTypes.object.isRequired,
+  title: PropTypes.string,
+  children: PropTypes.node
+};
 
 export default withStyles(styles)(SearchAppBar);
