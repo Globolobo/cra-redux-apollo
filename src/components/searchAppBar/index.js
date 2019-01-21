@@ -11,7 +11,7 @@ function SearchAppBar({ classes, title, children }) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography className={classes.title} variant="h3" color="inherit" noWrap>
+          <Typography className={classes.title} variant="h5" color="inherit" noWrap>
             {title}
           </Typography>
           {children}
