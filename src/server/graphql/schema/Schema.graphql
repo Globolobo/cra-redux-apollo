@@ -1,5 +1,5 @@
 type Query {
-  MovieResults(title: String): [Movie]
+  MovieResults(title: String, page: Int): [Movie]
 }
 
 schema {
