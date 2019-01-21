@@ -1,0 +1,7 @@
+type Query {
+  MovieResults(title: String): [Movie]
+}
+
+schema {
+  query: Query
+}
