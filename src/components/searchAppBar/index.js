@@ -4,7 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
-import SearchBox from '../../components/searchBox'
 import styles from './styles'
 
 function SearchAppBar({ classes, title, children }) {
@@ -12,7 +11,7 @@ function SearchAppBar({ classes, title, children }) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography className={classes.title} variant="h6" color="inherit" noWrap>
+          <Typography className={classes.title} variant="h3" color="inherit" noWrap>
             {title}
           </Typography>
           {children}
