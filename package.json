@@ -18,7 +18,7 @@
     "express": "4.16.3",
     "express-graphql": "0.6.12",
     "graphql": "14.0.2",
-    "graphql-tag": "2.9.2",
+    "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.3",
     "react": "^16.7.0",
     "react-apollo": "^2.4.0",
@@ -34,7 +34,9 @@
     "rxjs": "^6.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"yarn run client\" \"yarn run server\"",
+    "client": "react-scripts start",
+    "server": "node src/server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

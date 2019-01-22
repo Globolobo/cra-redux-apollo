@@ -14,10 +14,9 @@ rescue the hostages and bring the bad guys down.`
 const title = 'Die Hard'
 const date = 'jan 21 2019'
 const imgSrc = 'https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg'
+const onClick = action('clicked Expand')
 
 storiesOf('Movie Card', module)
-  .add('Default', () => <MovieCard />)
-  .add('With Title', () => <MovieCard {...{title, date}}/>)
-  .add('With img', () => <MovieCard {...{title, imgSrc, date}} />)
-  .add('Expanded', () => <MovieCard expanded={true} {...{overview}}/>)
-  .add('All', () => <MovieCard expanded={true} {...{overview, title, imgSrc, date}}/>)
+  .add('With Title', () => <MovieCard {...{title, date, onClick}}/>)
+  .add('With img', () => <MovieCard {...{title, imgSrc, date, onClick}} />)
+  .add('Expanded', () => <MovieCard expanded={true} {...{overview, title, imgSrc, date, onClick}}/>)

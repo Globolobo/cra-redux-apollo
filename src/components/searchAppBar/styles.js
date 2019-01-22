@@ -1,7 +1,8 @@
 
 const styles = theme => ({
   root: {
-    width: '100%',
+    flexGrow: 1,
+    backgroundColor: 'darkGrey'
   },
   grow: {
     flexGrow: 1,

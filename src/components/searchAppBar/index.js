@@ -9,9 +9,9 @@ import styles from './styles'
 function SearchAppBar({ classes, title, children }) {
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.root}>
         <Toolbar>
-          <Typography className={classes.title} variant="h5" color="inherit" noWrap>
+          <Typography className={classes.grow} variant="h5" color="inherit" >
             {title}
           </Typography>
           {children}

@@ -1,59 +1,406 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Button with some emoji 1`] = `
-<button
-  onClick={[Function]}
-  style={
-    Object {
-      "backgroundColor": "#FFFFFF",
-      "border": "1px solid #eee",
-      "borderRadius": 3,
-      "cursor": "pointer",
-      "fontSize": 15,
-      "margin": 10,
-      "padding": "3px 10px",
-    }
-  }
-  type="button"
+exports[`Storyshots Movie Card Expanded 1`] = `
+<li
+  className="MuiGridListTile-root-241"
 >
-  <span
-    aria-label="so cool"
-    role="img"
+  <div
+    className="MuiGridListTile-tile-242"
   >
-    😀 😎 👍 💯
-  </span>
-</button>
+    <div
+      className="MuiPaper-root-246 MuiPaper-elevation1-249 MuiPaper-rounded-247 MuiCard-root-245 MovieCard-card-235"
+    >
+      <div
+        className="MuiCardHeader-root-273"
+      >
+        <div
+          className="MuiCardHeader-avatar-274"
+        >
+          <div
+            aria-label="Movie"
+            className="MuiAvatar-root-279 MuiAvatar-colorDefault-280 MovieCard-avatar-240"
+          >
+            M
+          </div>
+        </div>
+        <div
+          className="MuiCardHeader-content-276"
+        >
+          <span
+            className="MuiTypography-root-282 MuiTypography-body2-290 MuiCardHeader-title-277"
+          >
+            Die Hard
+          </span>
+          <span
+            className="MuiTypography-root-282 MuiTypography-body2-290 MuiTypography-colorTextSecondary-315 MuiCardHeader-subheader-278"
+          >
+            jan 21 2019
+          </span>
+        </div>
+      </div>
+      <div
+        className="MuiCardMedia-root-318 MovieCard-media-236"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+          }
+        }
+        title="Die Hard"
+      />
+      <div
+        className="MuiCardActions-root-320 MuiCardActions-disableActionSpacing-321 MovieCard-actions-237"
+      >
+        <p
+          className="MuiTypography-root-282 MuiTypography-body1-291 MuiTypography-paragraph-310"
+        >
+          Overview
+        </p>
+        <button
+          aria-expanded={true}
+          aria-label="Show more"
+          className="MuiButtonBase-root-329 MuiIconButton-root-323 MovieCard-expand-238 MovieCard-expandOpen-239"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-328"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-332"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-346"
+          />
+        </button>
+      </div>
+      <div
+        className="MuiCollapse-container-341 MuiCollapse-entered-342"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-343"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-344"
+          >
+            <div
+              className="MuiCardContent-root-345"
+            >
+              <p
+                className="MuiTypography-root-282 MuiTypography-body1-291 MuiTypography-paragraph-310"
+              >
+                NYPD cop John McClane's plan to reconcile with his 
+estranged wife is thrown for a serious loop when, minutes after he arrives 
+at her office, the entire building is overtaken by a group of terrorists. 
+With little help from the LAPD, wisecracking McClane sets out to single-handedly 
+rescue the hostages and bring the bad guys down.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</li>
 `;
 
-exports[`Storyshots Button with text 1`] = `
-<button
-  onClick={[Function]}
-  style={
-    Object {
-      "backgroundColor": "#FFFFFF",
-      "border": "1px solid #eee",
-      "borderRadius": 3,
-      "cursor": "pointer",
-      "fontSize": 15,
-      "margin": 10,
-      "padding": "3px 10px",
-    }
-  }
-  type="button"
+exports[`Storyshots Movie Card With Title 1`] = `
+<li
+  className="MuiGridListTile-root-7"
 >
-  Hello Button
-</button>
+  <div
+    className="MuiGridListTile-tile-8"
+  >
+    <div
+      className="MuiPaper-root-12 MuiPaper-elevation1-15 MuiPaper-rounded-13 MuiCard-root-11 MovieCard-card-1"
+    >
+      <div
+        className="MuiCardHeader-root-39"
+      >
+        <div
+          className="MuiCardHeader-avatar-40"
+        >
+          <div
+            aria-label="Movie"
+            className="MuiAvatar-root-45 MuiAvatar-colorDefault-46 MovieCard-avatar-6"
+          >
+            M
+          </div>
+        </div>
+        <div
+          className="MuiCardHeader-content-42"
+        >
+          <span
+            className="MuiTypography-root-48 MuiTypography-body2-56 MuiCardHeader-title-43"
+          >
+            Die Hard
+          </span>
+          <span
+            className="MuiTypography-root-48 MuiTypography-body2-56 MuiTypography-colorTextSecondary-81 MuiCardHeader-subheader-44"
+          >
+            jan 21 2019
+          </span>
+        </div>
+      </div>
+      <div
+        className="MuiCardMedia-root-84 MovieCard-media-2"
+        title="Die Hard"
+      />
+      <div
+        className="MuiCardActions-root-86 MuiCardActions-disableActionSpacing-87 MovieCard-actions-3"
+      >
+        <p
+          className="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-paragraph-76"
+        >
+          Overview
+        </p>
+        <button
+          aria-label="Show more"
+          className="MuiButtonBase-root-95 MuiIconButton-root-89 MovieCard-expand-4"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-94"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-98"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-111"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Storyshots Movie Card With img 1`] = `
+<li
+  className="MuiGridListTile-root-124"
+>
+  <div
+    className="MuiGridListTile-tile-125"
+  >
+    <div
+      className="MuiPaper-root-129 MuiPaper-elevation1-132 MuiPaper-rounded-130 MuiCard-root-128 MovieCard-card-118"
+    >
+      <div
+        className="MuiCardHeader-root-156"
+      >
+        <div
+          className="MuiCardHeader-avatar-157"
+        >
+          <div
+            aria-label="Movie"
+            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163 MovieCard-avatar-123"
+          >
+            M
+          </div>
+        </div>
+        <div
+          className="MuiCardHeader-content-159"
+        >
+          <span
+            className="MuiTypography-root-165 MuiTypography-body2-173 MuiCardHeader-title-160"
+          >
+            Die Hard
+          </span>
+          <span
+            className="MuiTypography-root-165 MuiTypography-body2-173 MuiTypography-colorTextSecondary-198 MuiCardHeader-subheader-161"
+          >
+            jan 21 2019
+          </span>
+        </div>
+      </div>
+      <div
+        className="MuiCardMedia-root-201 MovieCard-media-119"
+        style={
+          Object {
+            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+          }
+        }
+        title="Die Hard"
+      />
+      <div
+        className="MuiCardActions-root-203 MuiCardActions-disableActionSpacing-204 MovieCard-actions-120"
+      >
+        <p
+          className="MuiTypography-root-165 MuiTypography-body1-174 MuiTypography-paragraph-193"
+        >
+          Overview
+        </p>
+        <button
+          aria-label="Show more"
+          className="MuiButtonBase-root-212 MuiIconButton-root-206 MovieCard-expand-121"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex="0"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label-211"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root-215"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root-228"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`Storyshots Search App Bar Default 1`] = `
+<div
+  className="SearchAppBar-root-353"
+>
+  <header
+    className="MuiPaper-root-369 MuiPaper-elevation4-375 MuiAppBar-root-360 MuiAppBar-positionStatic-364 MuiAppBar-colorPrimary-367 SearchAppBar-root-353"
+  >
+    <div
+      className="MuiToolbar-root-396 MuiToolbar-regular-398 MuiToolbar-gutters-397"
+    >
+      <h5
+        className="MuiTypography-root-400 MuiTypography-h5-416 MuiTypography-colorInherit-429 SearchAppBar-grow-354"
+      />
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Search App Bar With Title 1`] = `
+<div
+  className="SearchAppBar-root-436"
+>
+  <header
+    className="MuiPaper-root-452 MuiPaper-elevation4-458 MuiAppBar-root-443 MuiAppBar-positionStatic-447 MuiAppBar-colorPrimary-450 SearchAppBar-root-436"
+  >
+    <div
+      className="MuiToolbar-root-479 MuiToolbar-regular-481 MuiToolbar-gutters-480"
+    >
+      <h5
+        className="MuiTypography-root-483 MuiTypography-h5-499 MuiTypography-colorInherit-512 SearchAppBar-grow-437"
+      >
+        Movies for Sean!!
+      </h5>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Search App Bar With children 1`] = `
+<div
+  className="SearchAppBar-root-519"
+>
+  <header
+    className="MuiPaper-root-535 MuiPaper-elevation4-541 MuiAppBar-root-526 MuiAppBar-positionStatic-530 MuiAppBar-colorPrimary-533 SearchAppBar-root-519"
+  >
+    <div
+      className="MuiToolbar-root-562 MuiToolbar-regular-564 MuiToolbar-gutters-563"
+    >
+      <h5
+        className="MuiTypography-root-566 MuiTypography-h5-582 MuiTypography-colorInherit-595 SearchAppBar-grow-520"
+      />
+      <div>
+        I'm a child node!!
+      </div>
+    </div>
+  </header>
+</div>
 `;
 
 exports[`Storyshots Search Box Default 1`] = `
-<div
-  className="SearchBox-margin-1"
->
+<div>
   <div
-    className="MuiGrid-container-2 MuiGrid-spacing-xs-8-24 MuiGrid-align-items-xs-flex-end-12"
+    className="MuiGrid-container-606 MuiGrid-spacing-xs-8-628 MuiGrid-align-items-xs-flex-end-616"
   >
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-607"
     >
       <svg
         aria-hidden="true"
@@ -73,25 +420,25 @@ exports[`Storyshots Search Box Default 1`] = `
       </svg>
     </div>
     <div
-      className="MuiGrid-item-3"
+      className="MuiGrid-item-607"
     >
       <div
-        className="MuiFormControl-root-99"
+        className="MuiFormControl-root-703"
       >
         <label
-          className="MuiFormLabel-root-114 MuiInputLabel-root-103 MuiInputLabel-formControl-108 MuiInputLabel-animated-111"
+          className="MuiFormLabel-root-718 MuiInputLabel-root-707 MuiInputLabel-formControl-712 MuiInputLabel-animated-715"
           data-shrink={false}
           htmlFor="movie-title-input"
         >
           Enter your movie title
         </label>
         <div
-          className="MuiInputBase-root-134 MuiInput-root-121 MuiInput-underline-125 MuiInputBase-formControl-135 MuiInput-formControl-122"
+          className="MuiInputBase-root-738 MuiInput-root-725 MuiInput-underline-729 MuiInputBase-formControl-739 MuiInput-formControl-726"
           onClick={[Function]}
         >
           <input
             aria-invalid={false}
-            className="MuiInputBase-input-144 MuiInput-input-129"
+            className="MuiInputBase-input-748 MuiInput-input-733"
             disabled={false}
             id="movie-title-input"
             onBlur={[Function]}
@@ -105,181 +452,4 @@ exports[`Storyshots Search Box Default 1`] = `
     </div>
   </div>
 </div>
-`;
-
-exports[`Storyshots Welcome to Storybook 1`] = `
-<article
-  style={
-    Object {
-      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
-      "lineHeight": 1.4,
-      "margin": 15,
-      "maxWidth": 600,
-    }
-  }
->
-  <h1>
-    Welcome to storybook
-  </h1>
-  <p>
-    This is a UI component dev environment for your app.
-  </p>
-  <p>
-    We've added some basic stories inside the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      src/stories
-    </code>
-     directory.
-    <br />
-    A story is a single state of one or more UI components. You can have as many stories as you want.
-    <br />
-    (Basically a story is like a visual test case.)
-  </p>
-  <p>
-    See these sample 
-    <button
-      onClick={[Function]}
-      style={
-        Object {
-          "backgroundColor": "transparent",
-          "borderBottom": "1px solid #1474f3",
-          "borderLeft": "none",
-          "borderRight": "none",
-          "borderTop": "none",
-          "color": "#1474f3",
-          "cursor": "pointer",
-          "font": "inherit",
-          "padding": 0,
-          "paddingBottom": 2,
-          "textDecoration": "none",
-        }
-      }
-      type="button"
-    >
-      stories
-    </button>
-     for a component called
-     
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      Button
-    </code>
-    .
-  </p>
-  <p>
-    Just like that, you can add your own components as stories.
-    <br />
-    You can also edit those components and see changes right away.
-    <br />
-    (Try editing the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      Button
-    </code>
-     stories located at
-     
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      src/stories/index.js
-    </code>
-    .)
-  </p>
-  <p>
-    Usually we create stories with smaller UI components in the app.
-    <br />
-    Have a look at the
-     
-    <a
-      href="https://storybook.js.org/basics/writing-stories"
-      rel="noopener noreferrer"
-      style={
-        Object {
-          "borderBottom": "1px solid #1474f3",
-          "color": "#1474f3",
-          "paddingBottom": 2,
-          "textDecoration": "none",
-        }
-      }
-      target="_blank"
-    >
-      Writing Stories
-    </a>
-     
-    section in our documentation.
-  </p>
-  <p
-    style={
-      Object {
-        "opacity": 0.5,
-      }
-    }
-  >
-    <b>
-      NOTE:
-    </b>
-    <br />
-    Have a look at the 
-    <code
-      style={
-        Object {
-          "backgroundColor": "#f3f2f2",
-          "border": "1px solid #eae9e9",
-          "borderRadius": 4,
-          "color": "#3a3a3a",
-          "fontSize": 15,
-          "fontWeight": 600,
-          "padding": "2px 5px",
-        }
-      }
-    >
-      .storybook/webpack.config.js
-    </code>
-     to add webpack loaders and plugins you are using in this project.
-  </p>
-</article>
 `;
