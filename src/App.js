@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import SearchAppBar from './containers/SearchAppBar'
-import MovieResultsContainer from './containers/MovieResultsContainer'
+import IncidentAppBar from './components/incidentAppBar'
+import Incident from './containers/Incident'
 class App extends Component {
   render() {
+    const title = 'Outalator'
+
     return (
       <div className="App">
         <>
-          <SearchAppBar />
-          <MovieResultsContainer/>
+          <IncidentAppBar {...{title}} />
+          <Incident />
         </>
       </div>
     );
