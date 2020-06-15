@@ -40,7 +40,7 @@ export const onMoviesNeedUpdateEpic = (action$, state$) => {
             MovieResults
           }
       }).catch(error => {
-        console.log(error)
+        console.error(error)
         return {
           type: MOVIE_SEARCH_FAILED,
           error

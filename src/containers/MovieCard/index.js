@@ -1,25 +1,19 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import MovieCardComponent from '../../components/movieCard'
 
-class MovieCard extends Component {
-  state = { expanded: false };
+const MovieCard = ({ title, date, overview, imgSrc }) => {
+  const [{ expanded }, setExpanded] = useState({ expanded: false })
 
-  onClick = () => {
-    this.setState(state => ({ expanded: !state.expanded }));
-  };
+  const onClick = () => setExpanded(state => ({ expanded: !state.expanded }));
 
-  render(){
-      const { title, date, overview, imgSrc } = this.props
-      const { expanded } = this.state
       return(
-        <MovieCardComponent {...{title, date, overview, imgSrc, expanded}} onClick={this.onClick} />
+        <MovieCardComponent {...{title, date, overview, imgSrc, expanded}} {...{ onClick }}/>
       )
-  }
 
 }
 
-MovieCard.PropTypes = {
+MovieCard.propTypes = {
   title: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   overview: PropTypes.string.isRequired,

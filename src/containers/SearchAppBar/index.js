@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux'
+import React from 'react';
+import { useDispatch } from 'react-redux'
 import SearchBox from '../../components/searchBox'
 import SearchAppBarComponent from '../../components/searchAppBar'
 import search from './actions'
-class SearchAppBar extends Component {
-  render() {
-    const title = 'Movies for Jeff!!'
-    const onSearch = (target) => this.props.search(target)
+
+const SearchAppBar = () => {
+    const title = 'Movies for Sean!!'
+    const dispatch = useDispatch();
+    const onSearch = (target) => dispatch(search(target));
 
     return(
       <SearchAppBarComponent {...{title}}>
@@ -15,10 +15,5 @@ class SearchAppBar extends Component {
       </SearchAppBarComponent>
     )
   }
-}
 
-SearchAppBar.propTypes = {
-  search: PropTypes.func.isRequired
-} 
-
-export default connect(null, { search })(SearchAppBar);
+export default SearchAppBar;

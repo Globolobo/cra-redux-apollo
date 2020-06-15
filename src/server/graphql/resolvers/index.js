@@ -1,4 +1,4 @@
-const rp = require('request-promise-native')
+const rp = require('request-promise-native') //TODO update to got
 const apiKey = '057dfa32a18eed0f2dc23dc2e80ed8a0'
 const baseUrl = `https://api.themoviedb.org/3/search/movie?page=1&include_adult=false&language=en-US&api_key=${apiKey}`
 const imgUrl = 'https://image.tmdb.org/t/p/original/'
