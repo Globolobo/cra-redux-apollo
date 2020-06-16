@@ -192,69 +192,86 @@ exports[`Storyshots Incident App Bar With children 1`] = `
 
 exports[`Storyshots Incident Card With Children 1`] = `
 <li
-  className="MuiGridListTile-root-644"
+  className="MuiGridListTile-root"
 >
   <div
-    className="MuiGridListTile-tile-645"
+    className="MuiGridListTile-tile"
   >
     <div
-      className="MuiPaper-root-649 MuiPaper-elevation1-652 MuiPaper-rounded-650 MuiCard-root-648 Component-card-639"
+      className="MuiPaper-root MuiCard-root MovieCard-card-7 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardHeader-root-676"
+        className="MuiCardHeader-root"
       >
         <div
-          className="MuiCardHeader-avatar-677"
+          className="MuiCardHeader-avatar"
         >
           <div
-            aria-label="Incident"
-            className="MuiAvatar-root-682 MuiAvatar-colorDefault-683 Component-avatar-643"
+            aria-label="Movie"
+            className="MuiAvatar-root MuiAvatar-circle MovieCard-avatar-12 MuiAvatar-colorDefault"
           >
-            I
+            D
           </div>
         </div>
         <div
-          className="MuiCardHeader-content-679"
+          className="MuiCardHeader-content"
         >
           <span
-            className="MuiTypography-root-685 MuiTypography-body2-693 MuiCardHeader-title-680"
+            className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
           >
             Incident Name
           </span>
           <span
-            className="MuiTypography-root-685 MuiTypography-body2-693 MuiTypography-colorTextSecondary-718 MuiCardHeader-subheader-681"
+            className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
             Incident Status: In Progress
           </span>
         </div>
       </div>
       <div
-        className="MuiCardMedia-root-721 Component-media-641"
+        className="MuiCardMedia-root MovieCard-media-8"
         style={
           Object {
-            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+            "backgroundImage": "url(\\"someSrc\\")",
           }
         }
         title="Incident Name"
       />
       <div
-        className="MuiCardContent-root-723"
+        className="MuiCardActions-root MovieCard-actions-9"
       >
-        <div
-          className="Component-root-724"
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
         >
-          <div
-            className="MuiChip-root-726 Component-chip-725"
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            role="button"
-            tabIndex={-1}
+          Overview
+        </p>
+        <button
+          aria-expanded={true}
+          aria-label="Show more"
+          className="MuiButtonBase-root MuiIconButton-root MovieCard-expand-10 MovieCard-expandOpen-11"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
-              className="MuiSvgIcon-root-751 MuiChip-icon-742"
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -265,43 +282,36 @@ exports[`Storyshots Incident Card With Children 1`] = `
                 d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"
               />
             </svg>
-            <span
-              className="MuiChip-label-745"
-            >
-              8:25:19pm - 02/Sun/19
-            </span>
-          </div>
-        </div>
+          </span>
+        </button>
+      </div>
+      <div
+        className="MuiCollapse-container MuiCollapse-entered"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
         <div
-          className="Component-root-724"
+          className="MuiCollapse-wrapper"
         >
           <div
-            className="MuiChip-root-726 Component-chip-725"
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            role="button"
-            tabIndex={-1}
+            className="MuiCollapse-wrapperInner"
           >
-            <svg
-              aria-hidden="true"
-              className="MuiSvgIcon-root-751 MuiChip-icon-742"
-              focusable="false"
-              role="presentation"
-              viewBox="0 0 24 24"
+            <div
+              className="MuiCardContent-root"
             >
-              <path
-                d="M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z"
-                fill="none"
-              />
-              <path
-                d="M19.04 4.55l-1.42 1.42C16.07 4.74 14.12 4 12 4c-1.83 0-3.53.55-4.95 1.48l1.46 1.46C9.53 6.35 10.73 6 12 6c3.87 0 7 3.13 7 7 0 1.27-.35 2.47-.94 3.49l1.45 1.45C20.45 16.53 21 14.83 21 13c0-2.12-.74-4.07-1.97-5.61l1.42-1.42-1.41-1.42zM15 1H9v2h6V1zm-4 8.44l2 2V8h-2v1.44zM3.02 4L1.75 5.27 4.5 8.03C3.55 9.45 3 11.16 3 13c0 4.97 4.02 9 9 9 1.84 0 3.55-.55 4.98-1.5l2.5 2.5 1.27-1.27-7.71-7.71L3.02 4zM12 20c-3.87 0-7-3.13-7-7 0-1.28.35-2.48.95-3.52l9.56 9.56c-1.03.61-2.23.96-3.51.96z"
-              />
-            </svg>
-            <span
-              className="MuiChip-label-745"
-            >
-              8:25:19pm - 02/Sun/19
-            </span>
+              <p
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+              >
+                NYPD cop John McClane's plan to reconcile with his 
+estranged wife is thrown for a serious loop when, minutes after he arrives 
+at her office, the entire building is overtaken by a group of terrorists. 
+With little help from the LAPD, wisecracking McClane sets out to single-handedly 
+rescue the hostages and bring the bad guys down.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -312,109 +322,220 @@ exports[`Storyshots Incident Card With Children 1`] = `
 
 exports[`Storyshots Incident Card With Title 1`] = `
 <li
-  className="MuiGridListTile-root-474"
+  className="MuiGridListTile-root"
 >
   <div
-    className="MuiGridListTile-tile-475"
+    className="MuiGridListTile-tile"
   >
     <div
-      className="MuiPaper-root-479 MuiPaper-elevation1-482 MuiPaper-rounded-480 MuiCard-root-478 Component-card-469"
+      className="MuiPaper-root MuiCard-root MovieCard-card-1 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardHeader-root-506"
+        className="MuiCardHeader-root"
       >
         <div
-          className="MuiCardHeader-avatar-507"
+          className="MuiCardHeader-avatar"
         >
           <div
-            aria-label="Incident"
-            className="MuiAvatar-root-512 MuiAvatar-colorDefault-513 Component-avatar-473"
+            aria-label="Movie"
+            className="MuiAvatar-root MuiAvatar-circle MovieCard-avatar-6 MuiAvatar-colorDefault"
           >
-            I
+            D
           </div>
         </div>
         <div
-          className="MuiCardHeader-content-509"
+          className="MuiCardHeader-content"
         >
           <span
-            className="MuiTypography-root-515 MuiTypography-body2-523 MuiCardHeader-title-510"
+            className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
           >
             Incident Name
           </span>
           <span
-            className="MuiTypography-root-515 MuiTypography-body2-523 MuiTypography-colorTextSecondary-548 MuiCardHeader-subheader-511"
+            className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
             Incident Status: In Progress
           </span>
         </div>
       </div>
       <div
-        className="MuiCardMedia-root-551 Component-media-471"
+        className="MuiCardMedia-root MovieCard-media-2"
         style={
           Object {
-            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+            "backgroundImage": "url(\\"someSrc\\")",
           }
         }
         title="Incident Name"
       />
       <div
-        className="MuiCardContent-root-553"
-      />
+        className="MuiCardActions-root MovieCard-actions-3"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
+        >
+          Overview
+        </p>
+        <button
+          aria-label="Show more"
+          className="MuiButtonBase-root MuiIconButton-root MovieCard-expand-4"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+              />
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
     </div>
   </div>
 </li>
 `;
 
-exports[`Storyshots Incident Card With img 1`] = `
-<li
-  className="MuiGridListTile-root-559"
+exports[`Storyshots Search App Bar Default 1`] = `
+<div
+  className="SearchAppBar-root-13"
 >
-  <div
-    className="MuiGridListTile-tile-560"
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-13 MuiPaper-elevation4"
   >
     <div
-      className="MuiPaper-root-564 MuiPaper-elevation1-567 MuiPaper-rounded-565 MuiCard-root-563 Component-card-554"
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h5
+        className="MuiTypography-root SearchAppBar-grow-14 MuiTypography-h5 MuiTypography-colorInherit"
+      />
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Search App Bar With Title 1`] = `
+<div
+  className="SearchAppBar-root-20"
+>
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-20 MuiPaper-elevation4"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h5
+        className="MuiTypography-root SearchAppBar-grow-21 MuiTypography-h5 MuiTypography-colorInherit"
+      >
+        Movies for Sean!!
+      </h5>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Search App Bar With children 1`] = `
+<div
+  className="SearchAppBar-root-27"
+>
+  <header
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-27 MuiPaper-elevation4"
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+    >
+      <h5
+        className="MuiTypography-root SearchAppBar-grow-28 MuiTypography-h5 MuiTypography-colorInherit"
+      />
+      <div>
+        I'm a child node!!
+      </div>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Storyshots Search Box Default 1`] = `
+<div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-flex-end"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-search fa-w-16 "
+        data-icon="search"
+        data-prefix="fas"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item"
     >
       <div
-        className="MuiCardHeader-root-591"
+        className="MuiFormControl-root MuiTextField-root"
       >
-        <div
-          className="MuiCardHeader-avatar-592"
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+          data-shrink={false}
+          htmlFor="movie-title-input"
+          id="movie-title-input-label"
         >
-          <div
-            aria-label="Incident"
-            className="MuiAvatar-root-597 MuiAvatar-colorDefault-598 Component-avatar-558"
-          >
-            I
-          </div>
-        </div>
+          Enter your movie title
+        </label>
         <div
-          className="MuiCardHeader-content-594"
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          onClick={[Function]}
         >
-          <span
-            className="MuiTypography-root-600 MuiTypography-body2-608 MuiCardHeader-title-595"
-          >
-            Incident Name
-          </span>
-          <span
-            className="MuiTypography-root-600 MuiTypography-body2-608 MuiTypography-colorTextSecondary-633 MuiCardHeader-subheader-596"
-          >
-            Incident Status: In Progress
-          </span>
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInputBase-input MuiInput-input"
+            disabled={false}
+            id="movie-title-input"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={false}
+            type="text"
+          />
         </div>
       </div>
-      <div
-        className="MuiCardMedia-root-636 Component-media-556"
-        style={
-          Object {
-            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
-          }
-        }
-        title="Incident Name"
-      />
-      <div
-        className="MuiCardContent-root-638"
-      />
     </div>
   </div>
 </li>
