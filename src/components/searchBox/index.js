@@ -9,7 +9,7 @@ import styles from './styles'
 
 const SearchBox = ({ onSearch, classes }) => (
   <div className={classes.margin}>
-    <Grid container spacing={8} alignItems="flex-end">
+    <Grid container spacing={1} alignItems="flex-end">
       <Grid item>
         <FontAwesomeIcon icon={faSearch}/>
       </Grid>

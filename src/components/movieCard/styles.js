@@ -1,10 +1,10 @@
 const styles = theme => ({
   card: {
-    maxWidth: 300,
+    width: 300,
     margin: '5px'
   },
   media: {
-    height: 0,
+    height: 260,
     paddingTop: '56.25%', // 16:9
   },
   actions: {

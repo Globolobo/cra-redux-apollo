@@ -2,7 +2,7 @@
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: 'darkGrey'
+    backgroundColor: '#424242'
   },
   grow: {
     flexGrow: 1,

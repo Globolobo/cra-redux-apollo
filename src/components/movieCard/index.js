@@ -25,7 +25,7 @@ function MovieCard ({ title, classes, date, overview, imgSrc, expanded, onClick 
         <CardHeader
           avatar={
             <Avatar aria-label="Movie" className={classes.avatar}>
-              M
+              {title[0]}
             </Avatar>
           }
           {...{title}}
@@ -36,7 +36,7 @@ function MovieCard ({ title, classes, date, overview, imgSrc, expanded, onClick 
           image={imgSrc}
           {...{title}}
         />
-        <CardActions className={classes.actions} disableActionSpacing>
+        <CardActions className={classes.actions} disableSpacing>
         <Typography paragraph>Overview</Typography>
           <IconButton
             className={classnames(classes.expand, {

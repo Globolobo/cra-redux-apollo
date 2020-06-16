@@ -7,7 +7,8 @@ import { MOVIE_SEARCH_COMPLETE, MOVIE_SEARCH_FAILED } from '../constants'
 
 import { client } from '../../index'
 
-const SEARCHQUERY = gql`
+//Since i'm using CRA and don't want to eject, i won't move this to its own file
+const SEARCHQUERY = gql` 
   query MovieResults($title: String) {
     MovieResults(title: $title) {
       id

@@ -5,7 +5,7 @@ import SearchAppBarComponent from '../../components/searchAppBar'
 import search from './actions'
 
 const SearchAppBar = () => {
-    const title = 'Movies for Sean!!'
+    const title = 'Movie Search'
     const dispatch = useDispatch();
     const onSearch = (target) => dispatch(search(target));
 

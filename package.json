@@ -1,5 +1,5 @@
 {
-  "name": "navis",
+  "name": "code-sample",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "@material-ui/core": "^3.9.0",
+    "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^3.0.2",
     "apollo-boost": "^0.4.9",
     "apollo-cache-persist": "^0.1.1",
@@ -16,7 +16,6 @@
     "apollo-server-express": "^2.3.1",
     "cors": "2.8.4",
     "express": "4.16.3",
-    "express-graphql": "0.6.12",
     "graphql": "14.0.2",
     "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.3",
