@@ -1,13 +1,7 @@
 import { combineReducers } from 'redux'
-import { combineEpics } from 'redux-observable'
 
-import { onMoviesNeedUpdateEpic } from '../../containers/SearchAppBar/epic'
-import movieResults from '../../containers/MovieResultsContainer/reducer'
+import commandReceiver from '../../containers/Incident/reducer'
 
 export const rootReducer = combineReducers({
-  movieResults
+  commandReceiver
 })
-
-export const rootEpic = combineEpics(
-  onMoviesNeedUpdateEpic
-)

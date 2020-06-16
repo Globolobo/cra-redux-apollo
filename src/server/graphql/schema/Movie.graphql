@@ -1,7 +1,0 @@
-type Movie {
-  id: ID!
-  title: String!
-  date: String!
-  overview: String!
-  imgSrc: String
-}

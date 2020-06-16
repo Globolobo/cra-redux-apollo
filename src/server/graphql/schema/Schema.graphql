@@ -1,7 +1,0 @@
-type Query {
-  MovieResults(title: String, page: Int): [Movie]
-}
-
-schema {
-  query: Query
-}

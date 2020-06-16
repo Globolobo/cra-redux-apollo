@@ -2,7 +2,6 @@
   "name": "code-sample",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -35,7 +34,6 @@
   "scripts": {
     "start": "npx concurrently \"yarn run client\" \"yarn run server\"",
     "client": "react-scripts start",
-    "server": "node src/server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
