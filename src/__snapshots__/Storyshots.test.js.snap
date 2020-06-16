@@ -2,67 +2,67 @@
 
 exports[`Storyshots Movie Card Expanded 1`] = `
 <li
-  className="MuiGridListTile-root-241"
+  className="MuiGridListTile-root"
 >
   <div
-    className="MuiGridListTile-tile-242"
+    className="MuiGridListTile-tile"
   >
     <div
-      className="MuiPaper-root-246 MuiPaper-elevation1-249 MuiPaper-rounded-247 MuiCard-root-245 MovieCard-card-235"
+      className="MuiPaper-root MuiCard-root MovieCard-card-7 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardHeader-root-273"
+        className="MuiCardHeader-root"
       >
         <div
-          className="MuiCardHeader-avatar-274"
+          className="MuiCardHeader-avatar"
         >
           <div
             aria-label="Movie"
-            className="MuiAvatar-root-279 MuiAvatar-colorDefault-280 MovieCard-avatar-240"
+            className="MuiAvatar-root MuiAvatar-circle MovieCard-avatar-12 MuiAvatar-colorDefault"
           >
-            M
+            D
           </div>
         </div>
         <div
-          className="MuiCardHeader-content-276"
+          className="MuiCardHeader-content"
         >
           <span
-            className="MuiTypography-root-282 MuiTypography-body2-290 MuiCardHeader-title-277"
+            className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
           >
             Die Hard
           </span>
           <span
-            className="MuiTypography-root-282 MuiTypography-body2-290 MuiTypography-colorTextSecondary-315 MuiCardHeader-subheader-278"
+            className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
             jan 21 2019
           </span>
         </div>
       </div>
       <div
-        className="MuiCardMedia-root-318 MovieCard-media-236"
+        className="MuiCardMedia-root MovieCard-media-8"
         style={
           Object {
-            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+            "backgroundImage": "url(\\"someSrc\\")",
           }
         }
         title="Die Hard"
       />
       <div
-        className="MuiCardActions-root-320 MuiCardActions-disableActionSpacing-321 MovieCard-actions-237"
+        className="MuiCardActions-root MovieCard-actions-9"
       >
         <p
-          className="MuiTypography-root-282 MuiTypography-body1-291 MuiTypography-paragraph-310"
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
         >
           Overview
         </p>
         <button
           aria-expanded={true}
           aria-label="Show more"
-          className="MuiButtonBase-root-329 MuiIconButton-root-323 MovieCard-expand-238 MovieCard-expandOpen-239"
+          className="MuiButtonBase-root MuiIconButton-root MovieCard-expand-10 MovieCard-expandOpen-11"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
-          onContextMenu={[Function]}
+          onDragLeave={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -72,17 +72,16 @@ exports[`Storyshots Movie Card Expanded 1`] = `
           onTouchEnd={[Function]}
           onTouchMove={[Function]}
           onTouchStart={[Function]}
-          tabIndex="0"
+          tabIndex={0}
           type="button"
         >
           <span
-            className="MuiIconButton-label-328"
+            className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
-              className="MuiSvgIcon-root-332"
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -94,13 +93,10 @@ exports[`Storyshots Movie Card Expanded 1`] = `
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root-346"
-          />
         </button>
       </div>
       <div
-        className="MuiCollapse-container-341 MuiCollapse-entered-342"
+        className="MuiCollapse-container MuiCollapse-entered"
         style={
           Object {
             "minHeight": "0px",
@@ -108,16 +104,16 @@ exports[`Storyshots Movie Card Expanded 1`] = `
         }
       >
         <div
-          className="MuiCollapse-wrapper-343"
+          className="MuiCollapse-wrapper"
         >
           <div
-            className="MuiCollapse-wrapperInner-344"
+            className="MuiCollapse-wrapperInner"
           >
             <div
-              className="MuiCardContent-root-345"
+              className="MuiCardContent-root"
             >
               <p
-                className="MuiTypography-root-282 MuiTypography-body1-291 MuiTypography-paragraph-310"
+                className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
               >
                 NYPD cop John McClane's plan to reconcile with his 
 estranged wife is thrown for a serious loop when, minutes after he arrives 
@@ -136,164 +132,66 @@ rescue the hostages and bring the bad guys down.
 
 exports[`Storyshots Movie Card With Title 1`] = `
 <li
-  className="MuiGridListTile-root-7"
+  className="MuiGridListTile-root"
 >
   <div
-    className="MuiGridListTile-tile-8"
+    className="MuiGridListTile-tile"
   >
     <div
-      className="MuiPaper-root-12 MuiPaper-elevation1-15 MuiPaper-rounded-13 MuiCard-root-11 MovieCard-card-1"
+      className="MuiPaper-root MuiCard-root MovieCard-card-1 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardHeader-root-39"
+        className="MuiCardHeader-root"
       >
         <div
-          className="MuiCardHeader-avatar-40"
+          className="MuiCardHeader-avatar"
         >
           <div
             aria-label="Movie"
-            className="MuiAvatar-root-45 MuiAvatar-colorDefault-46 MovieCard-avatar-6"
+            className="MuiAvatar-root MuiAvatar-circle MovieCard-avatar-6 MuiAvatar-colorDefault"
           >
-            M
+            D
           </div>
         </div>
         <div
-          className="MuiCardHeader-content-42"
+          className="MuiCardHeader-content"
         >
           <span
-            className="MuiTypography-root-48 MuiTypography-body2-56 MuiCardHeader-title-43"
+            className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
           >
             Die Hard
           </span>
           <span
-            className="MuiTypography-root-48 MuiTypography-body2-56 MuiTypography-colorTextSecondary-81 MuiCardHeader-subheader-44"
+            className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
             jan 21 2019
           </span>
         </div>
       </div>
       <div
-        className="MuiCardMedia-root-84 MovieCard-media-2"
-        title="Die Hard"
-      />
-      <div
-        className="MuiCardActions-root-86 MuiCardActions-disableActionSpacing-87 MovieCard-actions-3"
-      >
-        <p
-          className="MuiTypography-root-48 MuiTypography-body1-57 MuiTypography-paragraph-76"
-        >
-          Overview
-        </p>
-        <button
-          aria-label="Show more"
-          className="MuiButtonBase-root-95 MuiIconButton-root-89 MovieCard-expand-4"
-          disabled={false}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onContextMenu={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          tabIndex="0"
-          type="button"
-        >
-          <span
-            className="MuiIconButton-label-94"
-          >
-            <svg
-              aria-hidden="true"
-              className="MuiSvgIcon-root-98"
-              focusable="false"
-              role="presentation"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
-              />
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
-            </svg>
-          </span>
-          <span
-            className="MuiTouchRipple-root-111"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-</li>
-`;
-
-exports[`Storyshots Movie Card With img 1`] = `
-<li
-  className="MuiGridListTile-root-124"
->
-  <div
-    className="MuiGridListTile-tile-125"
-  >
-    <div
-      className="MuiPaper-root-129 MuiPaper-elevation1-132 MuiPaper-rounded-130 MuiCard-root-128 MovieCard-card-118"
-    >
-      <div
-        className="MuiCardHeader-root-156"
-      >
-        <div
-          className="MuiCardHeader-avatar-157"
-        >
-          <div
-            aria-label="Movie"
-            className="MuiAvatar-root-162 MuiAvatar-colorDefault-163 MovieCard-avatar-123"
-          >
-            M
-          </div>
-        </div>
-        <div
-          className="MuiCardHeader-content-159"
-        >
-          <span
-            className="MuiTypography-root-165 MuiTypography-body2-173 MuiCardHeader-title-160"
-          >
-            Die Hard
-          </span>
-          <span
-            className="MuiTypography-root-165 MuiTypography-body2-173 MuiTypography-colorTextSecondary-198 MuiCardHeader-subheader-161"
-          >
-            jan 21 2019
-          </span>
-        </div>
-      </div>
-      <div
-        className="MuiCardMedia-root-201 MovieCard-media-119"
+        className="MuiCardMedia-root MovieCard-media-2"
         style={
           Object {
-            "backgroundImage": "url(\\"https://image.tmdb.org/t/p/original/mc7MubOLcIw3MDvnuQFrO9psfCa.jpg\\")",
+            "backgroundImage": "url(\\"someSrc\\")",
           }
         }
         title="Die Hard"
       />
       <div
-        className="MuiCardActions-root-203 MuiCardActions-disableActionSpacing-204 MovieCard-actions-120"
+        className="MuiCardActions-root MovieCard-actions-3"
       >
         <p
-          className="MuiTypography-root-165 MuiTypography-body1-174 MuiTypography-paragraph-193"
+          className="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph"
         >
           Overview
         </p>
         <button
           aria-label="Show more"
-          className="MuiButtonBase-root-212 MuiIconButton-root-206 MovieCard-expand-121"
+          className="MuiButtonBase-root MuiIconButton-root MovieCard-expand-4"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
-          onContextMenu={[Function]}
+          onDragLeave={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -303,17 +201,16 @@ exports[`Storyshots Movie Card With img 1`] = `
           onTouchEnd={[Function]}
           onTouchMove={[Function]}
           onTouchStart={[Function]}
-          tabIndex="0"
+          tabIndex={0}
           type="button"
         >
           <span
-            className="MuiIconButton-label-211"
+            className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
-              className="MuiSvgIcon-root-215"
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
               focusable="false"
-              role="presentation"
               viewBox="0 0 24 24"
             >
               <path
@@ -325,9 +222,6 @@ exports[`Storyshots Movie Card With img 1`] = `
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root-228"
-          />
         </button>
       </div>
     </div>
@@ -337,16 +231,16 @@ exports[`Storyshots Movie Card With img 1`] = `
 
 exports[`Storyshots Search App Bar Default 1`] = `
 <div
-  className="SearchAppBar-root-353"
+  className="SearchAppBar-root-13"
 >
   <header
-    className="MuiPaper-root-369 MuiPaper-elevation4-375 MuiAppBar-root-360 MuiAppBar-positionStatic-364 MuiAppBar-colorPrimary-367 SearchAppBar-root-353"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-13 MuiPaper-elevation4"
   >
     <div
-      className="MuiToolbar-root-396 MuiToolbar-regular-398 MuiToolbar-gutters-397"
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
     >
       <h5
-        className="MuiTypography-root-400 MuiTypography-h5-416 MuiTypography-colorInherit-429 SearchAppBar-grow-354"
+        className="MuiTypography-root SearchAppBar-grow-14 MuiTypography-h5 MuiTypography-colorInherit"
       />
     </div>
   </header>
@@ -355,16 +249,16 @@ exports[`Storyshots Search App Bar Default 1`] = `
 
 exports[`Storyshots Search App Bar With Title 1`] = `
 <div
-  className="SearchAppBar-root-436"
+  className="SearchAppBar-root-20"
 >
   <header
-    className="MuiPaper-root-452 MuiPaper-elevation4-458 MuiAppBar-root-443 MuiAppBar-positionStatic-447 MuiAppBar-colorPrimary-450 SearchAppBar-root-436"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-20 MuiPaper-elevation4"
   >
     <div
-      className="MuiToolbar-root-479 MuiToolbar-regular-481 MuiToolbar-gutters-480"
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
     >
       <h5
-        className="MuiTypography-root-483 MuiTypography-h5-499 MuiTypography-colorInherit-512 SearchAppBar-grow-437"
+        className="MuiTypography-root SearchAppBar-grow-21 MuiTypography-h5 MuiTypography-colorInherit"
       >
         Movies for Sean!!
       </h5>
@@ -375,16 +269,16 @@ exports[`Storyshots Search App Bar With Title 1`] = `
 
 exports[`Storyshots Search App Bar With children 1`] = `
 <div
-  className="SearchAppBar-root-519"
+  className="SearchAppBar-root-27"
 >
   <header
-    className="MuiPaper-root-535 MuiPaper-elevation4-541 MuiAppBar-root-526 MuiAppBar-positionStatic-530 MuiAppBar-colorPrimary-533 SearchAppBar-root-519"
+    className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary SearchAppBar-root-27 MuiPaper-elevation4"
   >
     <div
-      className="MuiToolbar-root-562 MuiToolbar-regular-564 MuiToolbar-gutters-563"
+      className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
     >
       <h5
-        className="MuiTypography-root-566 MuiTypography-h5-582 MuiTypography-colorInherit-595 SearchAppBar-grow-520"
+        className="MuiTypography-root SearchAppBar-grow-28 MuiTypography-h5 MuiTypography-colorInherit"
       />
       <div>
         I'm a child node!!
@@ -397,10 +291,10 @@ exports[`Storyshots Search App Bar With children 1`] = `
 exports[`Storyshots Search Box Default 1`] = `
 <div>
   <div
-    className="MuiGrid-container-606 MuiGrid-spacing-xs-8-628 MuiGrid-align-items-xs-flex-end-616"
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-flex-end"
   >
     <div
-      className="MuiGrid-item-607"
+      className="MuiGrid-root MuiGrid-item"
     >
       <svg
         aria-hidden="true"
@@ -420,27 +314,30 @@ exports[`Storyshots Search Box Default 1`] = `
       </svg>
     </div>
     <div
-      className="MuiGrid-item-607"
+      className="MuiGrid-root MuiGrid-item"
     >
       <div
-        className="MuiFormControl-root-703"
+        className="MuiFormControl-root MuiTextField-root"
       >
         <label
-          className="MuiFormLabel-root-718 MuiInputLabel-root-707 MuiInputLabel-formControl-712 MuiInputLabel-animated-715"
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
           data-shrink={false}
           htmlFor="movie-title-input"
+          id="movie-title-input-label"
         >
           Enter your movie title
         </label>
         <div
-          className="MuiInputBase-root-738 MuiInput-root-725 MuiInput-underline-729 MuiInputBase-formControl-739 MuiInput-formControl-726"
+          className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
           onClick={[Function]}
         >
           <input
             aria-invalid={false}
-            className="MuiInputBase-input-748 MuiInput-input-733"
+            autoFocus={false}
+            className="MuiInputBase-input MuiInput-input"
             disabled={false}
             id="movie-title-input"
+            onAnimationStart={[Function]}
             onBlur={[Function]}
             onChange={[Function]}
             onFocus={[Function]}
